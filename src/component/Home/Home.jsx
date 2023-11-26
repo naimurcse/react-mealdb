@@ -7,7 +7,7 @@ const Home = () => {
       <div>
          <Discount></Discount>
          <Header></Header>
-         <main className="px-40 bg-slate-100">
+         <main className="bg-slate-100">
             <Outlet></Outlet>
          </main>
       </div>
