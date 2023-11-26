@@ -4,11 +4,11 @@ import "./Header.css";
 
 const Header = () => {
    return (
-      <div className="bg-white text-center">
-         <div className="logo">
-            <h2 className="text-4xl font-thin py-3">WASFIA KITCHEN</h2>
+      <div className="flex md:flex-col absolute md:static w-full justify-between">
+         <div className="logo md:text-center">
+            <h2 className="md:text-4xl font-bold md:font-thin py-3 pl-8 md:pl-0">WASFIA KITCHEN</h2>
          </div>
-         <nav className="">
+         <nav className="flex md:flex-row md:justify-center flex-col">
             <ActiveLink to="/">Home</ActiveLink>
             <ActiveLink to="/meal">Meal</ActiveLink>
             <ActiveLink to="/Fish">Fish</ActiveLink>
