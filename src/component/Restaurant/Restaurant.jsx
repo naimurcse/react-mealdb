@@ -20,13 +20,13 @@ const Restaurant = () => {
          <p className="text-yellow-300 text-2xl font-light">Our Special</p>
          <h3 className="text-4xl md:text-5xl font-bold mb-4">{strMeal}</h3>
          <div>
+            {/* <p className="font-light md:text-xl">{strInstructions}</p> */}
             <p className="font-light md:text-xl">
-               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit dolore veniam iste
-               doloribus tenetur non exercitationem. Nesciunt dolore veritatis vero officiis
-               voluptatem debitis non, velit corrupti totam aut placeat vel dignissimos in
-               recusandae blanditiis quibusdam necessitatibus voluptates dolorum distinctio
-               molestiae libero beatae iste ut sequi? Odit quam voluptatem fugiat velit.
+               {strInstructions.length > 300
+                  ? strInstructions.substring(0, 300) + "...."
+                  : strInstructions}
             </p>
+            <span>See More</span>
          </div>
       </div>
    );
