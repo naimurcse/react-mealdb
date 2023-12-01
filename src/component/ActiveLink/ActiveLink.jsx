@@ -1,6 +1,6 @@
-import React, { Children } from "react";
 import { NavLink } from "react-router-dom";
 import "./ActiveLink.css";
+import PropTypes from "prop-types";
 
 const ActiveLink = ({ to, children }) => {
    return (
@@ -8,6 +8,11 @@ const ActiveLink = ({ to, children }) => {
          {children}
       </NavLink>
    );
+};
+
+ActiveLink.propTypes = {
+   to: PropTypes.any, // Adjust the type according to your requirements
+   children: PropTypes.any, // Define other props as needed
 };
 
 export default ActiveLink;
