@@ -2,7 +2,7 @@
   {
     "id": 1,
     "label": "Basic Membership",
-    "price": 29.99,
+    "subscriptionFee": 29.99,
     "features": [
       "Access to Cardio Area",
       "Basic Workout Equipment",
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "label": "Standard Membership",
-    "price": 49.99,
+    "subscriptionFee": 49.99,
     "features": [
       "Access to Cardio and Weight Areas",
       "Full Range of Workout Equipment",
@@ -23,7 +23,7 @@
   {
     "id": 3,
     "label": "Premium Membership",
-    "price": 79.99,
+    "subscriptionFee": 79.99,
     "features": [
       "All-Access to Facilities",
       "Exclusive Classes and Workshops",
